@@ -1,0 +1,10 @@
+name:"Joke Action"
+description: "Fetches a random jake and exposes it as output"
+
+outputs:
+  joke:
+    description: "Jore text"
+
+runs:
+  using: node24
+  main: disx/index.js
